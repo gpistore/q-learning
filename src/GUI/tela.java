@@ -21,11 +21,11 @@ public class tela extends JFrame {
 
 
     public tela() {
-        super("Agente Marte");
+        super("Exemplo Q-learning");
         Janela.setMinimumSize(new Dimension(1000,500));
         Janela.setMaximumSize(new Dimension(1000,500));
         Janela.setResizable(false);
-        Janela.setTitle("Mapa");
+        Janela.setTitle("Exemplo Q-learning");
         Janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
@@ -50,56 +50,16 @@ public class tela extends JFrame {
         painel.add(cel41); painel.add(cel42); painel.add(cel43); painel.add(cel44); painel.add(cel45); painel.add(cel46); painel.add(cel47); painel.add(cel48); painel.add(cel49); painel.add(cel50);
 
 
-        panelArray[0] = cel41;
-        panelArray[1] = cel31;
-        panelArray[2] = cel21;
-        panelArray[3] = cel11;
-        panelArray[4] = cel1;
-        panelArray[5] = cel2;
-        panelArray[6] = cel12;
-        panelArray[7] = cel22;
-        panelArray[8] = cel32;
-        panelArray[9] = cel42;
-        panelArray[10] = cel43;
-        panelArray[11] = cel33;
-        panelArray[12] = cel23;
-        panelArray[13] = cel13;
-        panelArray[14] = cel3;
-        panelArray[15] = cel4;
-        panelArray[16] = cel14;
-        panelArray[17] = cel24;
-        panelArray[18] = cel34;
-        panelArray[19] = cel44;
-        panelArray[20] = cel45;
-        panelArray[21] = cel35;
-        panelArray[22] = cel25;
-        panelArray[23] = cel15;
-        panelArray[24] = cel5;
-        panelArray[25] = cel6;
-        panelArray[26] = cel16;
-        panelArray[27] = cel26;
-        panelArray[28] = cel36;
-        panelArray[29] = cel46;
-        panelArray[30] = cel47;
-        panelArray[31] = cel37;
-        panelArray[32] = cel27;
-        panelArray[33] = cel17;
-        panelArray[34] = cel7;
-        panelArray[35] = cel8;
-        panelArray[36] = cel18;
-        panelArray[37] = cel28;
-        panelArray[38] = cel38;
-        panelArray[39] = cel48;
-        panelArray[40] = cel49;
-        panelArray[41] = cel39;
-        panelArray[42] = cel29;
-        panelArray[43] = cel19;
-        panelArray[44] = cel9;
-        panelArray[45] = cel10;
-        panelArray[46] = cel20;
-        panelArray[47] = cel30;
-        panelArray[48] = cel40;
-        panelArray[49] = cel50;
+        panelArray[0] = cel41; panelArray[1] = cel31; panelArray[2] = cel21; panelArray[3] = cel11; panelArray[4] = cel1;
+        panelArray[5] = cel2; panelArray[6] = cel12; panelArray[7] = cel22; panelArray[8] = cel32; panelArray[9] = cel42;
+        panelArray[10] = cel43; panelArray[11] = cel33; panelArray[12] = cel23; panelArray[13] = cel13; panelArray[14] = cel3;
+        panelArray[15] = cel4; panelArray[16] = cel14; panelArray[17] = cel24; panelArray[18] = cel34; panelArray[19] = cel44;
+        panelArray[20] = cel45; panelArray[21] = cel35; panelArray[22] = cel25; panelArray[23] = cel15; panelArray[24] = cel5;
+        panelArray[25] = cel6; panelArray[26] = cel16; panelArray[27] = cel26; panelArray[28] = cel36; panelArray[29] = cel46;
+        panelArray[30] = cel47; panelArray[31] = cel37; panelArray[32] = cel27; panelArray[33] = cel17; panelArray[34] = cel7;
+        panelArray[35] = cel8; panelArray[36] = cel18; panelArray[37] = cel28; panelArray[38] = cel38; panelArray[39] = cel48;
+        panelArray[40] = cel49; panelArray[41] = cel39; panelArray[42] = cel29; panelArray[43] = cel19; panelArray[44] = cel9;
+        panelArray[45] = cel10; panelArray[46] = cel20; panelArray[47] = cel30; panelArray[48] = cel40; panelArray[49] = cel50;
     }
 
     public void pintar(int pos,int color){
@@ -115,7 +75,7 @@ public class tela extends JFrame {
         painel = new JPanel();
         initcelulas();
         painel.setLayout(new GridLayout(5,10));
-    Janela.add(painel, BorderLayout.CENTER);
+        Janela.add(painel, BorderLayout.CENTER);
         Janela.pack();
         Janela.setVisible(true);
     }
