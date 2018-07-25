@@ -1,8 +1,8 @@
-Description
-An simple example of Q-learning algorithm
+<h2>Description</h2>
+A simple example of Q-learning algorithm
 
-Author - Gustavo Pistore
-Website - https://gpistore.com.br
+Author - Gustavo Pistore<br>
+Website - https://gpistore.com.br<br>
 
-License
+<h3>License</h3>
 This Software is MIT licensed.
